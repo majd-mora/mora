@@ -3,7 +3,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import Home from './Home';
 import Contact from './Contact';
 import About from './About';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route, Link } from 'react-router-dom';
 
 // importing logo.png
 
@@ -24,9 +24,9 @@ class NavBar extends Component {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                             <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ml-auto, navbar">
-                            <Nav.Link href="/home">Home</Nav.Link>
-                            <Nav.Link href="/about">About</Nav.Link>
-                            <Nav.Link href="/contact">Contact</Nav.Link>
+                            <Nav.Link as={Link} to={"/home"}>Home</Nav.Link>
+                            <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
+                            <Nav.Link as={Link} to={"/contact"}>Contact</Nav.Link>
                             </Nav>
                             </Navbar.Collapse>
                         </Container>
