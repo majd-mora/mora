@@ -17,12 +17,12 @@ class NavBar extends Component {
                 <div>
                     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed className="navbar-dark">
                         <Container>
-                        <Navbar.Brand>
                         <Nav.Link as={Link} to={"/home"}>
+                        <Navbar.Brand>
                         <img src={logo} width="50" height="50" className="d-inline-block align-top"
                             alt="React Bootstrap logo"/>
-                            </Nav.Link>
                         </Navbar.Brand>
+                        </Nav.Link>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                             <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ml-auto, navbar">
