@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mora/static/css/main.3c380420.chunk.css",
-    "main.js": "/mora/static/js/main.9c64e7ab.chunk.js",
-    "main.js.map": "/mora/static/js/main.9c64e7ab.chunk.js.map",
+    "main.css": "/mora/static/css/main.9fe609d8.chunk.css",
+    "main.js": "/mora/static/js/main.cfa5d8a1.chunk.js",
+    "main.js.map": "/mora/static/js/main.cfa5d8a1.chunk.js.map",
     "runtime-main.js": "/mora/static/js/runtime-main.81f9c49c.js",
     "runtime-main.js.map": "/mora/static/js/runtime-main.81f9c49c.js.map",
     "static/css/2.78cfab3a.chunk.css": "/mora/static/css/2.78cfab3a.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.4ef644db.chunk.js.map": "/mora/static/js/3.4ef644db.chunk.js.map",
     "index.html": "/mora/index.html",
     "static/css/2.78cfab3a.chunk.css.map": "/mora/static/css/2.78cfab3a.chunk.css.map",
-    "static/css/main.3c380420.chunk.css.map": "/mora/static/css/main.3c380420.chunk.css.map",
+    "static/css/main.9fe609d8.chunk.css.map": "/mora/static/css/main.9fe609d8.chunk.css.map",
     "static/js/2.4fcb2abf.chunk.js.LICENSE.txt": "/mora/static/js/2.4fcb2abf.chunk.js.LICENSE.txt",
     "static/media/codecoffee.e39f30ab.jpg": "/mora/static/media/codecoffee.e39f30ab.jpg",
     "static/media/coding.5987661a.jpg": "/mora/static/media/coding.5987661a.jpg",
@@ -42,7 +42,7 @@
     "static/js/runtime-main.81f9c49c.js",
     "static/css/2.78cfab3a.chunk.css",
     "static/js/2.4fcb2abf.chunk.js",
-    "static/css/main.3c380420.chunk.css",
-    "static/js/main.9c64e7ab.chunk.js"
+    "static/css/main.9fe609d8.chunk.css",
+    "static/js/main.cfa5d8a1.chunk.js"
   ]
 }
