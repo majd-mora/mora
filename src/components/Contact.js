@@ -17,7 +17,7 @@ export default class Contact extends Component {
         return (
             <div>
               <img src={img} alt="communication" class="cont-img"
-               style={{width:"100%", height:"86vh"}}/>
+               style={{width:"100%", height:"88.3vh"}}/>
                 <div class="text-block-contact">
                     <center>
                         <Container  className="res-contact">
@@ -40,7 +40,7 @@ export default class Contact extends Component {
                         <Col>
                         <img src={icon3} alt="address" width="40px" height="40px"/>
                         <br/>
-                        <p class="font"><strong>ATTACH ME AN EMAIL</strong></p>
+                        <p class="font"><strong>SEND ME AN EMAIL</strong></p>
                         <p class="font-p"><strong>majedmoura99@gmail.com</strong></p></Col>
                         </Row>
                         </Container>

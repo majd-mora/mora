@@ -128,12 +128,12 @@ code {
 
 .font-p {
   font-size: 20px;
-  font-family: cursive;
+  font-family: ui-rounded;
 }
 
 .font-contact {
   font-size: 22px;
-  font-family: cursive;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
 
