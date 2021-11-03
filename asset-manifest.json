@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mora/static/css/main.9fe609d8.chunk.css",
-    "main.js": "/mora/static/js/main.02b99d01.chunk.js",
-    "main.js.map": "/mora/static/js/main.02b99d01.chunk.js.map",
+    "main.js": "/mora/static/js/main.5f878245.chunk.js",
+    "main.js.map": "/mora/static/js/main.5f878245.chunk.js.map",
     "runtime-main.js": "/mora/static/js/runtime-main.81f9c49c.js",
     "runtime-main.js.map": "/mora/static/js/runtime-main.81f9c49c.js.map",
     "static/css/2.78cfab3a.chunk.css": "/mora/static/css/2.78cfab3a.chunk.css",
@@ -43,6 +43,6 @@
     "static/css/2.78cfab3a.chunk.css",
     "static/js/2.8de0b690.chunk.js",
     "static/css/main.9fe609d8.chunk.css",
-    "static/js/main.02b99d01.chunk.js"
+    "static/js/main.5f878245.chunk.js"
   ]
 }
