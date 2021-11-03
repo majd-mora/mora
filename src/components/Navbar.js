@@ -17,7 +17,7 @@ class NavBar extends Component {
                 <div>
                     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed className="navbar-dark">
                         <Container>
-                        <Navbar.Brand href="/home">
+                        <Navbar.Brand as={Link} to={"/home"}>
                         <img src={logo} width="50" height="50" className="d-inline-block align-top"
                             alt="React Bootstrap logo" href="/home"/>
                         </Navbar.Brand>
