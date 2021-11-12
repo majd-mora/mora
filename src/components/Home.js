@@ -34,7 +34,7 @@ export default class Home extends Component {
                     src= {img1}
                     alt="First slide" height="605px" width="240px"/>
                   <Carousel.Caption className="caption">
-                    <h5 class="animate__animated animate__fadeInDown">Inquisitiveness</h5>
+                    <h6 class="animate__animated animate__fadeInDown">Inquisitiveness</h6>
                     <p class="animate__animated animate__fadeInUp">The most effective and successful programmers have a talent for figuring out how something is done and finding ways to do it more efficiently</p>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -44,7 +44,7 @@ export default class Home extends Component {
                     src={img2} height="605px" width="240px"
                     alt="First slide"/>
                   <Carousel.Caption className="caption">
-                    <h5 class="animate__animated animate__backInRight">Self-motivation</h5>
+                    <h6 class="animate__animated animate__backInRight">Self-motivation</h6>
                     <p class="animate__animated animate__backInLeft">The ability to motivate yourself will keep you on the path to constant learning and discovery, which is essential for programmers.</p>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -53,7 +53,7 @@ export default class Home extends Component {
                     src={img3} height="605px" width="240px"
                     alt="First slide"/>
                   <Carousel.Caption className="caption">
-                    <h5 class="animate__animated animate__fadeInUp">Perseverance</h5>
+                    <h6 class="animate__animated animate__fadeInUp">Perseverance</h6>
                     <p class="animate__animated animate__fadeInDown">That is why it is so important to be able to handle failure and keep pushing forward if you want to be a programmer</p>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -62,7 +62,7 @@ export default class Home extends Component {
                     src={img4} height="605px" width="240px"
                     alt="First slide"/>
                   <Carousel.Caption className="caption">
-                    <h5 class="animate__animated animate__lightSpeedInRight">Proficiency with programming languages</h5>
+                    <h6 class="animate__animated animate__lightSpeedInRight">Proficiency with programming languages</h6>
                     <p class="animate__animated animate__lightSpeedInLeft">Most programmers typically decide on an area of specialization and then learn the programming language that is most appropriate for that field.</p>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -71,7 +71,7 @@ export default class Home extends Component {
                     src={img5} height="605px" width="240px"
                     alt="Second slide"/>
                   <Carousel.Caption className="caption">
-                    <h5 class="animate__animated animate__zoomIn">Learning concepts and applying them to other problems</h5>
+                    <h6 class="animate__animated animate__zoomIn">Learning concepts and applying them to other problems</h6>
                     <p class="animate__animated animate__zoomIn">The ability to learn concepts and apply them to other problems is an essential skill for programmers</p>
                   </Carousel.Caption>
                 </Carousel.Item>
@@ -80,7 +80,7 @@ export default class Home extends Component {
                     src={img6} height="605px" width="240px"
                     alt="First slide"/>
                   <Carousel.Caption className="caption">
-                    <h5 class="animate__animated animate__slideInUp">Problem-solving capability</h5>
+                    <h6 class="animate__animated animate__slideInUp">Problem-solving capability</h6>
                     <p class="animate__animated animate__slideInDown">Code is often written to solve a problem. You will need to have the ability to identify problems and come up with the most efficient ways to solve them via programming</p>
                   </Carousel.Caption>
 
@@ -90,11 +90,12 @@ export default class Home extends Component {
                     src={img7} height="605px" width="240px"
                     alt="First slide"/>
                   <Carousel.Caption className="caption">
-                    <h5 class="animate__animated animate__rollIn">Communication skills</h5>
+                    <h6 class="animate__animated animate__rollIn">Communication skills</h6>
                     <p class="animate__animated animate__rollIn">Programmers generally spend most of their time working solo in front of a computer</p>
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
+              <br/>
 
                 
                 {/**Cards: Courses I've Learned */}
@@ -102,7 +103,7 @@ export default class Home extends Component {
 
 
                 
-                <center style={{margin:"15px"}}>
+                <center>
                 <Badge bg="secondary"><h3 className="courses">Courses I've Learned from<br/> Teamtreehouse Technology School</h3></Badge>
                 </center>
                 <br/>
@@ -112,7 +113,7 @@ export default class Home extends Component {
               <Container>
                 <Row>
                   <Col>
-                <Card style={{ width: '26rem' }}>
+                <Card style={{ width: '23rem' }} className="cards">
                   <Card.Img variant="top" src={img8} alt="digital-literacy"/>
                   <Card.Body>
                     <Card.Title>Digital Literacy</Card.Title>
@@ -129,7 +130,7 @@ export default class Home extends Component {
 
 
               <Col>
-                <Card style={{ width: '26rem' }}>
+                <Card style={{ width: '23rem' }} className="cards">
                   <Card.Img variant="top" src={img9} alt="web-design" style={{ height: '218px'}}/>
                   <Card.Body>
                     <Card.Title>Web Design</Card.Title>
@@ -142,11 +143,11 @@ export default class Home extends Component {
                   </Card.Body>
                 </Card>
                 </Col>
-                <br/>
+                
 
 
                   <Col>
-                <Card style={{ width: '26rem' }}>
+                <Card style={{ width: '23rem' }} className="cards">
                   <Card.Img variant="top" src={img10} alt="front-end development" style={{ height: '214px'}}/>
                   <Card.Body>
                     <Card.Title>Front End Web Development</Card.Title>
@@ -161,7 +162,7 @@ export default class Home extends Component {
 
 
               <Col>
-                <Card style={{ width: '26rem' }}>
+                <Card style={{ width: '23rem' }} className="cards">
                   <Card.Img variant="top" src={img11} alt="react"/>
                     <Card.Body>
                       <Card.Title>React</Card.Title>

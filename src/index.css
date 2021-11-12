@@ -37,11 +37,11 @@ code {
 
 
 .caption {
-  margin-bottom: 200px;
+  width: -100%;
 }
 
 
-.caption h5 {
+.caption h6 {
   font-size: 45px;
   font-family:'Courier New', Courier, monospace;
   text-transform: uppercase;
@@ -52,7 +52,6 @@ code {
 }
 
 .caption p {
-  width: 60%;
   margin: auto;
   font-size: 22px;
   line-height: 1.9;
@@ -63,7 +62,11 @@ code {
 
 .courses {
   font-family:'Times New Roman', Times, serif;
+  width: 20rem;
+  margin-left: initial;
 }
+
+
 
 
 
